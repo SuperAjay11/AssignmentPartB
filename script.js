@@ -49,7 +49,9 @@ function cleanUpIndex(){
 function createSingleIndex(contact){
     let anchorTag = document.createElement("a");
     anchorTag.href="page3.html";
+
     let newDiv = document.createElement("div");
+    
     let newParagraph = document.createElement("p");
     newParagraph.innerHTML = contact['name'];
     newDiv.className = "contact";
